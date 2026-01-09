@@ -1,0 +1,47 @@
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header{
+    
+   
+   border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
+    
+}
+.logo img{ 
+    width: 139px;
+    height: 60px;  
+}
+.nav{
+    max-width: 1480px;
+   display: flex;
+   gap: 32px;
+  
+}
+.nav a:hover{
+    background: #287a8a;
+}
+.nav a{
+    text-decoration: none;
+    color:#000000;
+    font-weight: 500;
+}
+
+.btn{
+    background: #30B868;
+    color: #FFFFFF;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: black;
+}
